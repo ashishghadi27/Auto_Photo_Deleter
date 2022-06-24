@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#fff"
+    tools:context=".fragments.ImageLoadingFragment">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/photos_and_videos_captured"
+        android:fontFamily="@font/quicksand_light"
+        android:textStyle="bold"
+        android:padding="10dp"
+        android:textColor="@color/purple_500"
+        android:textSize="20sp"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/purple_500"/>
+
+    <TextView
+        android:id="@+id/today"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/quicksand_light"
+        android:textStyle="bold"
+        android:padding="10dp"
+        android:textSize="15sp"
+        android:textColor="#454545"
+        android:text="@string/photos_and_videos_captured_today"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#676363"/>
+
+    <TextView
+        android:id="@+id/sevenDays"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/quicksand_light"
+        android:textStyle="bold"
+        android:padding="10dp"
+        android:textSize="15sp"
+        android:textColor="#454545"
+        android:text="@string/photos_and_videos_captured_past_7_days"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#676363"/>
+
+
+    <TextView
+        android:id="@+id/week"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/quicksand_light"
+        android:textStyle="bold"
+        android:padding="10dp"
+        android:textSize="15sp"
+        android:textColor="#454545"
+        android:text="@string/last_week"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#676363"/>
+
+    <TextView
+        android:id="@+id/month"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/quicksand_light"
+        android:textStyle="bold"
+        android:padding="10dp"
+        android:textSize="15sp"
+        android:textColor="#454545"
+        android:text="@string/last_month"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#676363"/>
+
+    <TextView
+        android:id="@+id/custom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/quicksand_light"
+        android:textStyle="bold"
+        android:padding="10dp"
+        android:textSize="15sp"
+        android:textColor="#454545"
+        android:text="@string/select_date_time"/>
+
+</LinearLayout>

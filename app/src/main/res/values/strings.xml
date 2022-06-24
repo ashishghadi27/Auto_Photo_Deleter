@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Auto Photo Deleter</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="photos_and_videos_captured_today">Today</string>
+    <string name="photos_and_videos_captured_past_7_days">Last 7 Days</string>
+    <string name="photos_and_videos_captured">Photos and Videos Captured</string>
+    <string name="last_week">Last Week</string>
+    <string name="last_month">Last Month</string>
+    <string name="select_date_time">Select Date Time</string>
+</resources>

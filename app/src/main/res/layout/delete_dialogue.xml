@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:id="@+id/imageContainer"
+    android:layout_margin="20dp"
+    android:background="#fff">
+
+    <TextView
+        android:id="@+id/title"
+        android:text="Delete"
+        android:drawableStart="@drawable/delete"
+        android:fontFamily="@font/quicksand_light"
+        android:textStyle="bold"
+        android:textSize="25sp"
+        android:textColor="#C12A2A"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:singleLine="true"
+        />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@color/purple_500"/>
+
+    <TextView
+        android:id="@+id/message"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Data will be deleted permanently. \nThis cannot be undone."
+        android:layout_margin="20dp"
+        android:textSize="20sp"
+        android:textColor="#272626"
+        android:textStyle="bold"
+        android:fontFamily="@font/quicksand_light"/>
+
+   <RelativeLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:layout_marginHorizontal="20dp"
+       android:layout_marginBottom="20dp">
+
+       <Button
+           android:id="@+id/cancel"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:layout_toStartOf="@+id/splitter"
+           android:backgroundTint="#4CAF50"
+           android:fontFamily="@font/quicksand_light"
+           android:text="Cancel"
+           android:textColor="#FFF"
+           android:textStyle="bold" />
+
+       <View
+           android:id="@+id/splitter"
+           android:layout_width="10dp"
+           android:layout_height="1dp"
+           android:layout_centerInParent="true"/>
+
+       <Button
+           android:id="@+id/delete"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:layout_toEndOf="@+id/splitter"
+           android:backgroundTint="#F44336"
+           android:fontFamily="@font/quicksand_light"
+           android:text="Delete"
+           android:textColor="#FFF"
+           android:textStyle="bold" />
+
+   </RelativeLayout>
+
+</LinearLayout>
